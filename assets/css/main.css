@@ -3924,13 +3924,14 @@ input, select, textarea {
 		#crowdImgSection {
 			background: url('/imgnew/crowdBack.jpg');
 			height: 30rem;
+			max-width: 100%;
 		}
 		#backHeader {
 			text-align: center;
 			font-size: 3rem;
 			position: absolute;
-			top: 10rem;
-			left: 18.5rem;
+			top: 0;
+			left: 0;
 		}
 		#backHeaderSection {
 			position: relative;
