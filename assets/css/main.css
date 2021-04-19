@@ -3968,16 +3968,16 @@ input, select, textarea {
 		}
 
 		#logoCreatemath {
-			height:100%;
-			width:50%;
+			max-height:100%;
+			max-width:50%;
 		}
 
 		#olimpicsLogoWhite {
-			width:50%;
+			max-width:50%;
 		}
 
 		#MateoHead {
-			width:100%;
+			max-width:100%;
 		}
 
 		
