@@ -3980,4 +3980,10 @@ input, select, textarea {
 			width:100%;
 		}
 
+
+		#inner-alt {
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+		}
+
 		
