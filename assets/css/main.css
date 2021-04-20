@@ -3920,58 +3920,45 @@ input, select, textarea {
 		#bienvenida {
 			margin: auto;
 		}
+		#box {
+			width:100%;
+		}
+		.boxes {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items:center;
+			text-align:center;
+		}
 
-		#crowdImgSection {
-			background: url('/imgnew/crowdBack.jpg');
-			height: 30rem;
-			max-width: 100%;
-			overflow-x: none;
+		.espacio {
+			text-align:center;
 		}
-		#backHeader {
-			text-align: center;
-			font-size: 3rem;
-			position: absolute;
-			top: 10rem;
-			left: 1rem;
-			overflow-x: none;
-		}
-		#backHeaderSection {
-			position: relative;
-			top: 5rem;
-			overflow-x: none;
-			}
 
-		#levelsHeaderContainer {
-			background-color: #1d1f2b;
-			height: 5rem;
-			overflow-x: none;
+		#text-h1{
+			margin-bottom: 0px;
 		}
+
+
 		#firstLevel {
 			background-color: #ffda27;
+			color:black;
+			
 		}
 		#secondLevel {
 			background-color: #2b7de1;
+			color: white;
+
 		}
 		#thirdLevel {
 			background-color: #01ae43;
+			color: white;
 		}
 		#fourthLevel {
 			background-color: #f52935;
-		}
-		#levelsHeaderText {
-			text-align: center;
 			color: white;
-			position: relative;
-			top: 1rem;
-			overflow-x: none;
 		}
 
-		#olimpicsLogoBlack {
-			width: 30rem;
-			height: 10rem;
-			position: absolute;
-			left: 32.5rem;
-		}
 
 		#logoCreatemath {
 			max-height:100%;
