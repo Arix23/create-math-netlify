@@ -3924,22 +3924,27 @@ input, select, textarea {
 		#crowdImgSection {
 			background: url('/imgnew/crowdBack.jpg');
 			height: 30rem;
+			max-width: 100%;
+			overflow-x: none;
 		}
 		#backHeader {
 			text-align: center;
 			font-size: 3rem;
 			position: absolute;
 			top: 10rem;
-			left: 18.5rem;
+			left: 1rem;
+			overflow-x: none;
 		}
 		#backHeaderSection {
 			position: relative;
 			top: 5rem;
+			overflow-x: none;
 			}
 
 		#levelsHeaderContainer {
 			background-color: #1d1f2b;
 			height: 5rem;
+			overflow-x: none;
 		}
 		#firstLevel {
 			background-color: #ffda27;
@@ -3958,6 +3963,7 @@ input, select, textarea {
 			color: white;
 			position: relative;
 			top: 1rem;
+			overflow-x: none;
 		}
 
 		#olimpicsLogoBlack {
@@ -3968,16 +3974,19 @@ input, select, textarea {
 		}
 
 		#logoCreatemath {
-			height:100%;
-			width:50%;
+			max-height:100%;
+			max-width:50%;
+			overflow-x: none;
 		}
 
 		#olimpicsLogoWhite {
-			width:50%;
+			max-width:50%;
+			overflow-x: none;
 		}
 
 		#MateoHead {
-			width:100%;
+			max-width:100%;
+			overflow-x: none;
 		}
 
 
