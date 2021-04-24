@@ -3982,4 +3982,13 @@ input, select, textarea {
 			padding-bottom: 0px;
 		}
 
+		#olimpicsLogoWhite-alt {
+			width:20%;
+			overflow-x: none;
+		}
+
+		#inner-factura{
+			padding: 0px;
+		}
+
 		
